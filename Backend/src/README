@@ -1,0 +1,30 @@
+The code prints different analysis on the logs file. To run the code
+all you need to do is to supply the code a path to txt file containing logs.
+The code uses ua-agent to parse the user agent and GeoIP2 database for extracting countries by there IP.
+The code can be easily extend to analyze more categories, by implementing the interface CategoryAnalyzer,
+and add the new category to the analyzers' list in the main function.
+
+# Log Analyzer Tool
+
+## Overview
+
+The Log Analyzer Tool processes logs, parses the `User-Agent` string, and extracts country information from IP
+ addresses using the GeoIP2 database.
+
+ The code can be easily extend to analyze more categories, by implementing the interface CategoryAnalyzer,
+ and add the new category to the list of analyzers in the main function.
+
+
+## Requirements
+- Java 21
+- ua-agent library version 1.5.2 for User-Agent parsing
+- GeoIP2 version 4.2.0 database for country detection
+
+## Usage
+
+To run the Log Analyzer Tool, provide the path to a `.txt` log file:
+
+```bash
+java -jar target/Beckend-1.0-SNAPSHOT.jar path/to/logs.txt file
+
+
