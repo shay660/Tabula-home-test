@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Desktop styles */
+.widget-container {
+  position: fixed;
+  top: 20px;  /* ensures the widget starts below the top edge */
+  right: 10px;
+  width: 180px;
+  max-height: 400px; /* limit height, add overflow if needed */
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow-y: auto; /* scroll if content overflows */
+}
+
+.widget-container h2 {
+  text-align: center;
+  font-size: 14px; 
+  margin: 0 0 10px;
+}
+
+.recommendation {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 12px;
+}
+
+.recommendation:hover {
+  background: #fafafa;
+}
+
+.recommendation img {
+  max-width: 60px;
+  margin-right: 8px;
+}
+
+.recommendation .details {
+  flex: 1;
+}
+
+.recommendation.sponsored {
+  background-color: #f9f9f9;
+  font-size: 10px;
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .widget-container {
+    width: 100%;      /* full width on mobile */
+    top: 5px;        
+    right: 0;
+    left: 3px; 
+    padding: 5px;
+    max-height: none; /* allow height to adjust */
+  }
+  .recommendation {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  .recommendation img {
+    margin-bottom: 5px;
+    max-width: 50px;
+  }
+}

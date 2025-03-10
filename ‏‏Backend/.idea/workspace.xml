@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56ca1a67-0868-45cc-aedb-4ced68c9c703" name="Changes" comment="working project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tnxq2huAZKCQFkh4aW9oSSpmp5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LogAnalyzer.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.main.Main.executor": "Run",
+    "JUnit.BrowsersAnalyzerTest.testAddLogWithValidOs.executor": "Run",
+    "JUnit.BrowsersAnalyzerTest.testAddMultipleLogsToCounter.executor": "Run",
+    "JUnit.BrowsersAnalyzerTest.testGetCategoryName.executor": "Run",
+    "JUnit.CountriesAnalyzerTest.executor": "Run",
+    "JUnit.CountriesAnalyzerTest.testCountryCounterInvalidLog.executor": "Debug",
+    "JUnit.CountriesTest.executor": "Run",
+    "JUnit.CountriesTest.testBrowserCounter.executor": "Run",
+    "JUnit.CountriesTest.testCountryCategory.executor": "Run",
+    "JUnit.CountriesTest.testCountryCounterInvalidLog.executor": "Run",
+    "JUnit.CountriesTest.testOSCounter.executor": "Run",
+    "JUnit.CountriesTest.testPrintCategory.executor": "Run",
+    "JUnit.CountriesTest.testUserAgentParserCreation.executor": "Run",
+    "JUnit.LogAnalyzerTest.executor": "Run",
+    "JUnit.LogAnalyzerTest.testAddAnalyzerAfterCalculation.executor": "Run",
+    "JUnit.LogAnalyzerTest.testAddAnalyzerBeforeCalculation.executor": "Run",
+    "JUnit.LogAnalyzerTest.testPrintAllCategories.executor": "Run",
+    "JUnit.LogAnalyzerTest.testPrintCategories.executor": "Run",
+    "JUnit.OSAnalyzerTest.executor": "Debug",
+    "JUnit.OSAnalyzerTest.testAddLogToCounter.executor": "Run",
+    "JUnit.OSAnalyzerTest.testAddLogWithNullOs.executor": "Run",
+    "JUnit.OSAnalyzerTest.testAddLogWithValidOs.executor": "Run",
+    "JUnit.OSAnalyzerTest.testAddMultipleLogsToCounter.executor": "Run",
+    "JUnit.ParsedLogTest.testCacheUserAgentParsing.executor": "Run",
+    "JUnit.ParsedLogTest.testExtractIp.executor": "Run",
+    "JUnit.ParsedLogTest.testExtractUserAgent.executor": "Run",
+    "JUnit.ParsedLogTest.testMissingIp.executor": "Run",
+    "JUnit.ParsedLogTest.testMissingUserAgent.executor": "Run",
+    "JUnit.ParsedLogTest.testParseUserAgent.executor": "Run",
+    "JUnit.tests in Beckend.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/javaProjects/Tabula/Tabula-home-test/‏‏Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="categories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.tests in Beckend">
+    <configuration name="LogAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.LogAnalyzer" />
+      <module name="Beckend" />
+      <option name="PROGRAM_PARAMETERS" value="run_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrowsersAnalyzerTest.testAddLogWithValidOs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beckend" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BrowsersAnalyzerTest" />
+      <option name="METHOD_NAME" value="testAddLogWithValidOs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountriesAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beckend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CountriesAnalyzerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountriesAnalyzerTest.testCountryCounterInvalidLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beckend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CountriesAnalyzerTest" />
+      <option name="METHOD_NAME" value="testCountryCounterInvalidLog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests in Beckend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Beckend" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/tests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LogAnalyzer" />
+      <item itemvalue="JUnit.CountriesAnalyzerTest" />
+      <item itemvalue="JUnit.CountriesAnalyzerTest.testCountryCounterInvalidLog" />
+      <item itemvalue="JUnit.tests in Beckend" />
+      <item itemvalue="JUnit.BrowsersAnalyzerTest.testAddLogWithValidOs" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.tests in Beckend" />
+        <item itemvalue="JUnit.CountriesAnalyzerTest" />
+        <item itemvalue="JUnit.BrowsersAnalyzerTest.testAddLogWithValidOs" />
+        <item itemvalue="Application.LogAnalyzer" />
+        <item itemvalue="JUnit.CountriesAnalyzerTest.testCountryCounterInvalidLog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56ca1a67-0868-45cc-aedb-4ced68c9c703" name="Changes" comment="" />
+      <created>1741001828285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741001828285</updated>
+      <workItem from="1741001829406" duration="298000" />
+      <workItem from="1741002137807" duration="29000" />
+      <workItem from="1741002178402" duration="53807000" />
+      <workItem from="1741200034254" duration="23289000" />
+      <workItem from="1741518861914" duration="1212000" />
+      <workItem from="1741520145442" duration="3550000" />
+      <workItem from="1741523751579" duration="9203000" />
+      <workItem from="1741598767992" duration="1285000" />
+    </task>
+    <task id="LOCAL‎-00001" summary="working project">
+      <option name="closed" value="true" />
+      <created>1741599107059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1741599107059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working project" />
+    <option name="LAST_COMMIT_MESSAGE" value="working project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main/LogAnalyzer.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main/LogAnalyzer.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/categories/OSAnalyzer.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="54" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodException" package="java.lang" />
+          <option name="timeStamp" value="55" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
